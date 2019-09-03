@@ -1,48 +1,62 @@
-var number;
 
-//add a and b and return the result.
+function mathFloorRandom() {
+  var a = Math.floor(Math.random() * 1000)
+  var b = Math.floor(Math.random() * 1000)
+return a, b;
+}
+
 function add(a, b){
-  number = a + b;
-  return number;
+return a+b;
 }
+add(a, b);
 
-//subtract a and b and return the result.
+mathFloorRandom();
+// let a = Math.floor(Math.random() * 1000)
+// let b = Math.floor(Math.random() * 1000)
+
 function subtract(a, b){
-  number = a - b;
-  return number;
+return a-b;
 }
+subtract(a, b);
 
-//multiply a and b and return the result.
+mathFloorRandom();
+// let a = Math.floor(Math.random() * 1000)
+// let b = Math.floor(Math.random() * 1000)
 function multiply(a, b){
-  number = a * b;
-  return number;
+return a*b;
 }
+multiply(a, b);
 
-//divide a and b and return the result.
+mathFloorRandom();
+// let a = Math.floor(Math.random() * 1000);
+// let b = Math.floor(Math.random() * 1000);
 function divide(a, b){
-  number = a / b;
-  return number;
+return a/b;
 }
+divide(a, b);
 
-//Increment a by 1 and return the result.
-function inc(a){
-  number = a + 1;
-  return number;
+mathFloorRandom();
+
+function inc(i){
+return a+1;
 }
+inc(i);
 
-//Decrement a by 1 and return the result.
-function dec(a){
-  number = a - 1;
-  return number;
+mathFloorRandom();
+
+function dec(j){
+return a-1;
 }
+dec(j);
 
-//Parse a as an integer and return that integer.
-function makeInt(a){
-  number = parseInt(a, 10);
-  return number;
+let k = Math.floor(Math.random() * 1000);
+function makeInt(k){
+return parseInt(k, 10);
 }
+makeInt(k);
 
-//Parse a as a float (number with decimals) and return that number.
-function preserveDecimal(a){
-  number = parseFloat(a, 10);
-  return number;
+let l = Math.floor(Math.random() * 1000);
+function preserveDecimal(l){
+return parseFloat(l, 10);
+}
+preserveDecimal(l);
