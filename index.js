@@ -37,19 +37,22 @@ divide(a, b);
 
 mathFloorRandom();
 
-function inc(i){
+function inc(a){
+var i = parseInt();
 return a+1;
 }
 inc(i);
 
 mathFloorRandom();
 
-function dec(j){
+function dec(a){
+  var j = parseInt();
 return a-1;
 }
 dec(j);
 
-let k = Math.floor(Math.random() * 1000);
+mathFloorRandom();
+// let k = Math.floor(Math.random() * 1000);
 function makeInt(k){
 return parseInt(k, 10);
 }
